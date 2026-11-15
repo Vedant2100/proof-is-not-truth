@@ -1,0 +1,9 @@
+[project]
+name = "proof-is-not-truth"
+version = "0.1.0"
+description = "Benchmark for separating origin authenticity from factual veracity in tool-using agents"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.unittest]
+start-directory = "tests"

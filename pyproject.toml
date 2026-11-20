@@ -1,5 +1,5 @@
 [project]
-name = "proof-is-not-truth"
+name = "provenance-bias"
 version = "0.1.0"
 description = "Benchmark for separating origin authenticity from factual veracity in tool-using agents"
 requires-python = ">=3.10"

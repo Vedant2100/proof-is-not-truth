@@ -1,4 +1,4 @@
-"""Unit and regression tests for the Proof Is Not Truth evaluation suite.
+"""Unit and regression tests for the Provenance Bias evaluation suite.
 
 Verifies:
 1. Cryptographic HMAC-SHA256 MAC generation and verification.

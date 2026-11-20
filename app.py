@@ -89,9 +89,9 @@ initial_choices = list(TRACE_BY_KEY)
 initial_selection = initial_choices[0] if initial_choices else None
 initial_details, initial_grade, initial_trace = render_episode(initial_selection)
 
-with gr.Blocks(title="Proof Is Not Truth — Trace Explorer") as demo:
+with gr.Blocks(title="Provenance Bias — Trace Explorer") as demo:
     gr.Markdown(
-        "# Proof Is Not Truth\n"
+        "# Provenance Bias\n"
         "### Interactive replay of the 96-episode Qwen2.5-7B-Instruct evaluation\n\n"
         "**Replay only:** this Space displays recorded actions and evaluator outputs. "
         "It does not call a model, execute submitted code, or mutate a filesystem.\n\n"

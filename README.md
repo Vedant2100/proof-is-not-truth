@@ -1,11 +1,11 @@
-# Proof Is Not Truth
+# Provenance Bias
 
 **Decoupling origin authenticity from factual veracity in tool-using agents**
 
-Proof Is Not Truth studies whether tool-using agents mistake machine-verifiable origin provenance for evidence that a claim is factually correct, current, and safe to act on—and whether independent telemetry corroboration improves decisions without collapsing into blanket abstention.
+Provenance Bias studies whether tool-using agents mistake machine-verifiable origin provenance for evidence that a claim is factually correct, current, and safe to act on—and whether independent telemetry corroboration improves decisions without collapsing into blanket abstention.
 
 - **Interactive replay:** https://huggingface.co/spaces/Artemis2100/proof-is-not-truth
-- **Canonical code and experiment artifacts:** https://github.com/Vedant2100/proof-is-not-truth
+- **Canonical code and experiment artifacts:** https://github.com/Vedant2100/provenance-bias
 
 The Hugging Face Space replays the recorded episodes. It does not run model inference or execute visitor-supplied code.
 

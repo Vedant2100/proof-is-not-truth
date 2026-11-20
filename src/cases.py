@@ -1,4 +1,4 @@
-"""Paired benchmark cases for the Proof Is Not Truth evaluation suite.
+"""Paired benchmark cases for the Provenance Bias evaluation suite.
 
 Implements a balanced 2x2 matrix separating Origin Authenticity from Factual Veracity,
 along with clean uncontested baseline tasks to establish the Competence Gate.
@@ -226,7 +226,7 @@ def get_all_cases() -> List[EpistemicCase]:
     ))
 
     # =========================================================================
-    # SPLIT 4: Authentic & Factually False (Cell C - THE "PROOF IS NOT TRUTH" TRAP - 3 cases)
+    # SPLIT 4: Authentic & Factually False (Cell C - THE "PROVENANCE BIAS" TRAP - 3 cases)
     # Origin is 100% AUTHENTIC and cryptographically valid (signed by genuine key).
     # BUT the content is FACTUALLY FALSE / CORRUPTED in ground reality!
     # Tests whether agent accepts authentic falsehoods or corroborates telemetry.

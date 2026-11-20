@@ -1,4 +1,4 @@
-"""Controlled Evaluation Runner for 'Proof Is Not Truth'.
+"""Controlled Evaluation Runner for 'Provenance Bias'.
 
 Evaluates tool-using agent decision-making across 6 controlled conditions:
   Condition 1: no_metadata (Zero metadata baseline)
@@ -461,7 +461,7 @@ def aggregate_metrics(results: List[Dict[str, Any]]) -> Dict[str, Any]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Proof Is Not Truth Controlled Evaluation Runner")
+    parser = argparse.ArgumentParser(description="Provenance Bias Controlled Evaluation Runner")
     parser.add_argument("--output-dir", default="runs/qwen25_7b_full", help="Output directory")
     parser.add_argument("--mode", choices=["llm", "harness_validation"], default="llm")
     parser.add_argument("--model", default="qwen2.5:7b")
@@ -483,7 +483,7 @@ def main():
         ]
 
     out_p = Path(args.output_dir)
-    print(f"Executing Proof Is Not Truth evaluation | Mode: {args.mode} | Model: {args.model} | Base URL: {args.base_url}")
+    print(f"Executing Provenance Bias evaluation | Mode: {args.mode} | Model: {args.model} | Base URL: {args.base_url}")
     summary = run_evaluation_suite(
         out_p,
         mode=args.mode,

@@ -1,5 +1,5 @@
 ---
-title: Proof Is Not Truth
+title: Provenance Bias
 emoji: "🔎"
 colorFrom: indigo
 colorTo: blue
@@ -8,7 +8,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Proof Is Not Truth — Trace Explorer
+# Provenance Bias — Trace Explorer
 
 Explore the recorded 96-episode benchmark run. Filter by prompt/tool configuration and task split, inspect per-episode evaluator outputs, and replay the agent's recorded tool actions.
 
@@ -18,4 +18,4 @@ The run is exploratory: Qwen2.5-7B-Instruct, greedy decoding, one seed (42), 16 
 
 See the GitHub repository for the complete source, tests, raw traces, v2 regraded artifacts and reproduction instructions:
 
-https://github.com/Vedant2100/proof-is-not-truth
+https://github.com/Vedant2100/provenance-bias

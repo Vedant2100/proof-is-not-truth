@@ -1,4 +1,4 @@
-"""Offline regrading script for Proof Is Not Truth evaluation traces.
+"""Offline regrading script for Provenance Bias evaluation traces.
 
 Performs offline regrading directly from the immutable evaluation_traces.json.
 Fixes action-ordering:

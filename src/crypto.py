@@ -1,4 +1,4 @@
-"""HMAC-SHA256 provenance fixtures for the Proof Is Not Truth evaluation suite.
+"""HMAC-SHA256 provenance fixtures for the Provenance Bias evaluation suite.
 
 The deterministic pre-seeded keys are synthetic benchmark fixtures. They are
 not production credentials and must never be reused outside this evaluation.
